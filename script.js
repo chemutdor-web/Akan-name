@@ -1,19 +1,26 @@
-getElementById('akanForm').addEventListener('submit', function(e){
-    ventDefault();
-    let birthday = document.getElementById('birthday').value;
-    if(!birthday) return alert("please select a date");
+ const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+ const femaleNames = ["akosua", "Adwoa", "Abena", "Akua", "yaa", "Afua", "Ama"];
+//  main event
+document.getElementById('akanForm').addEventListener('submit',function(event){
+    event.preventDefault();
 
-    let MM = parseInt(dateParts[1])
-    let DD = 
+    // input values
+    const birthday = document.getElementById('birthday').value;
+    const gender = document.quer
+})
 
-}
+birthdayInput = document.getElementById("birthday").ariaValue;
+gender = document.querySelectir('input[name="gender"]:checked').value;
 
-birthdayInput= document.getElementById('birthday').ariaValue;
-gender= document.querySelectir('input[name="gender"]:checked').value;
-resultDisplay= document.getElementById('displayname');
+resultDisplay = document.getElementById("displayname");
 
-// data array for names
-maleNames = ["kwasi","kwado","kwabena","kwaku","yaw","kofi","kwame"]
-femaleNames = ["akosua","Adwoa","Abena","Akua","yaa","Afua","Ama"]
-daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
+daysOfWeek = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
