@@ -29,7 +29,7 @@ const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
     let CC = Math.floor(year /100);
     let YY = year % 100;
 
-    let d = ((CC/4) -2 * CC - 1) + Math.floor(5 * YY / 4) + Math.floor(26 * (MM + 1) / 10) +DD) % 7;
+    let d = (((CC/4) -2 * CC - 1) + Math.floor(5 * YY / 4) + Math.floor(26 * (MM + 1) / 10) +DD) % 7;
 
     // get the index 
     // we use math.floor and the ensure the result is positive
@@ -47,9 +47,6 @@ const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
     }
 
     // Display result 
-    document.getElementById('display').innerHTML
+    document.getElementById('display').innerHTML = akanName;
 
-
-
-
-
+});
