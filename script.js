@@ -18,10 +18,11 @@ const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
     }
     // process the date
      let gender = genderInput.value;
-     let date = new Date(birthday);
+     let date = new Date(birthday);GET
 
-     let DD = 
-      let MM
+      let MM = date.getMonth() + 1;
+      let DD = date.getDate(); 
+      let YY = Year % 100;
 
     let d = (((CCC/4) -2*CC-1) +((5*YY/4)) +((26*(MM+1)/10)) +DD) %7;
     let index = Math.floor(d);
