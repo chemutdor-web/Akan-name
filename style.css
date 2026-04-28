@@ -18,10 +18,12 @@ body{
     width:100%;
 }
 .container{
+    background-color: #fff;
+    border-top: 8px solid #ce1126;
     padding:20px;
     border-radius: 5px;
     text-align: center;
-    box-shadow:0 10px 30px;
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.2);
     max-width: 400px;
 }
 
@@ -65,6 +67,10 @@ input[type="date"]{
 
 }
 button{
+    background-color: #fcd116;
+    color:#000;
+    font-weight: bold;
+    letter-spacing: 1px;
     font-size: 20px;
     border:none;
     cursor:pointer;
