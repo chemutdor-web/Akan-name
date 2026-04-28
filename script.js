@@ -33,18 +33,7 @@ document.getElementById('akanForm').addEventListener('submit',function(event){
     } else {
         akanName= femaleNames[index];
 
-    }
-    display.innerHTML = your Akan name is <str
 
-
-
-
-
-
-
-
-
-resultDisplay = document.getElementById("displayname");
 
 
 daysOfWeek = [
