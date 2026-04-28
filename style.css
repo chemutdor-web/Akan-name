@@ -9,15 +9,15 @@ body{
 
 }
 .form-card{
-    background-color:plum;
+    background-color:tan;
     padding: 5px;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 12px;
     text-align: center;
     width:100%;
 }
 .container{
-    padding:15px;
+    padding:25px;
     border-radius: 10px;
     text-align: center;
     box-shadow:0 10px 30px;
@@ -34,10 +34,11 @@ header p{
 }
 
 #Akan-form{
-    background-color: white;
-    padding: 12px;
-    border-radius: 18px;
+    background-color:teal;
+    padding: 10px;
+    border-radius: 12px;
     width:300px;
+
 
 }
 
