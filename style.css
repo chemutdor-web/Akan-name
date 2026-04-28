@@ -6,14 +6,17 @@ body{
 
 
 }
-.container{
-    width:50%;
-    border-radius:10px;
-    padding: 30px;
-    box-shadow: 0 4px 8px;
+#Akan-form{
+    background-color: white;
+    padding: 2px;
+    border-radius: 8px;
+    width:300px;
 
 }
-h1{
+
+
+header h1{
+    margin-bottom: 0.5rem;
     text-align: center;
     color:brown;
 
@@ -21,4 +24,25 @@ h1{
 label{
     display:block;
     font-weight: bold;
+    margin-top: 1rem;
 }
+button{
+    font-size: 20px;
+    border:none;
+    cursor:pointer;
+    transition: background 0.3s;
+}
+button:hover{
+    background-color: #0056b3;
+}
+h2{
+    color:teal;
+    text-align: center;
+
+}
+#footer{
+    font-style:italic;
+    text-align: center;
+}
+
+
