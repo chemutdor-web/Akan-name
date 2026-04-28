@@ -1,6 +1,6 @@
 
 //  main event
-document.getElementById('akanForm').addEventListener('submit',function(event){
+document.getElementById('Akan-form').addEventListener('submit',function(event){
     event.preventDefault();
 
 const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
