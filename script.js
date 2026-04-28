@@ -16,15 +16,20 @@ const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
         alert("please select both your birthday and gender!");
         return;
     }
-    // process the date
+    // get input values
      let gender = genderInput.value;
-     let date = new Date(birthday);GET
+     let date = new Date(birthday);
 
+    //  extract date parts
       let MM = date.getMonth() + 1;
       let DD = date.getDate(); 
-      let YY = Year % 100;
+      let Year = date.getFullYear();
 
-    let d = (((CCC/4) -2*CC-1) +((5*YY/4)) +((26*(MM+1)/10)) +DD) %7;
+    //   define century(cc) and year of the cenury (YY)
+    let CC = Math.floor(year /100);
+    let YY = year % 100;
+
+    let d = (CC/4) -2*CC-1) +((5*YY/4)) +((26*(MM+1)/10)) +DD) %7;
     let index = Math.floor(d);
     if (index < 0){
         index = index + 7;
