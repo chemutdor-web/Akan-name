@@ -7,9 +7,12 @@ document.getElementById('akanForm').addEventListener('submit',function(event){
     // input values
     const birthday = document.getElementById('birthday').value;
     const gender = document.querySelector('input[name="gender"]:checked').value;
+    const display = document.getElementById('displayname');
+
 
     // process the date
-    
+
+
 
 resultDisplay = document.getElementById("displayname");
 
