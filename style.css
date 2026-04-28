@@ -1,11 +1,30 @@
 body{
     background-color: aquamarine;
     margin: 15;
-    padding:0;
+    padding:20px;
     font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+
 
 
 }
+.container{
+    padding:5px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:0 10px 30px;
+    max-width: 400px;
+}
+header p{
+    color:black;
+    font-size: medium;
+    margin-bottom: 12px;
+}
+.input-group{
+    text-align: left;
+    margin-bottom: 0%;
+}
+
 #Akan-form{
     background-color: white;
     padding: 2px;
@@ -40,9 +59,38 @@ h2{
     text-align: center;
 
 }
-#footer{
-    font-style:italic;
-    text-align: center;
+
+.radio-options{
+    display:flex;
+    gap: 2px;
+    padding: 20px;
+    border-radius: 10px;
 }
+.radio-options label{
+    font-weight: 100px;
+    margin-bottom: 0%;
+}
+#submit-button{
+    border-radius:5;
+    width:20;
+    background-color: brown;
+    font-size: medium;
+    font-weight:bold;
+    color:none;
 
+}
+submit-button :hover{
+    background-color: antiquewhite;
+}
+.result-section{
+    margin-top: ;
+    padding: 5px;
+    border-radius: 8px;
 
+}
+#displayname{
+    font-size: medium;
+    font-weight: 100px;
+    font-style:italic ;
+    color:beige;
+}

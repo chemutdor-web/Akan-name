@@ -7,6 +7,7 @@
 
 </head>
 <body>
+    <main class="container">
     
         <header>
     <h1>Akan name Generator</h1>
@@ -15,22 +16,29 @@
 
 <section class="form-card"> 
     <form id="Akan-form">
-
+        <div class="input-group">
         <label for="birthday">Enter your birthdate:</label>
         <input type="date" id="birthday required"><br><br>
+        </div>
+        <div class="input-group">
         <label>Select gender:</label>
+        <div class="radio-options">
         <input type="radio" name="gender" value="male">Male
         <input type="radio" name="gender" value="female">female<br><br>
+        </div>
+        </div>
+        <!-- submit button -->
 
         <button type="submit"id=submit-button>generate name</button>
     </form>
 </section>
+<!-- result section -->
 
-<section>
-
-    <h2>Your Akan name will appear hear:</h2>
-    <p></p>
+<section id="result-display" class="result-section">
+    <p id="display name"> Your Akan name will appear hear:</p>
 </section>
+    </main>
+
     
     
 </body>
