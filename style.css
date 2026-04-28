@@ -1,16 +1,24 @@
 body{
-    background-color: aquamarine;
+    background-color:tan;
     margin: 15;
     padding:20px;
     font-family:Arial, Helvetica, sans-serif;
     justify-content: center;
-
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
 
 }
+.form-card{
+    background-color:plum;
+    padding: 5px;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    width:100%;
+}
 .container{
-    padding:5px;
-    border-radius: 20px;
+    padding:15px;
+    border-radius: 10px;
     text-align: center;
     box-shadow:0 10px 30px;
     max-width: 400px;
@@ -27,7 +35,7 @@ header p{
 
 #Akan-form{
     background-color: white;
-    padding: 20px;
+    padding: 12px;
     border-radius: 18px;
     width:300px;
 
@@ -44,6 +52,13 @@ label{
     display:block;
     font-weight: bold;
     margin-top: 1rem;
+    color:#333;
+}
+input[type="date"]{
+    width: 100%;
+    padding:10px;
+    border-radius: 6px;
+
 }
 button{
     font-size: 20px;
@@ -63,8 +78,10 @@ h2{
 .radio-options{
     display:flex;
     gap: 2px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
+    justify-content: space-around;
+
 }
 .radio-options label{
     font-weight: 100px;
@@ -77,6 +94,7 @@ h2{
     font-size: medium;
     font-weight:bold;
     color:none;
+    width:100%;
 
 }
 submit-button :hover{
