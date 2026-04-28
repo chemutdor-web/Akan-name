@@ -6,11 +6,10 @@ document.getElementById('akanForm').addEventListener('submit',function(event){
 
     // input values
     const birthday = document.getElementById('birthday').value;
-    const gender = document.quer
-})
+    const gender = document.querySelector('input[name="gender"]:checked').value;
 
-birthdayInput = document.getElementById("birthday").ariaValue;
-gender = document.querySelectir('input[name="gender"]:checked').value;
+    // process the date
+    
 
 resultDisplay = document.getElementById("displayname");
 
