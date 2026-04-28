@@ -116,3 +116,7 @@ submit-button :hover{
     font-style:italic ;
     color:beige;
 }
+#footer{
+    padding: 12px;
+    color:cornflowerblue;
+}

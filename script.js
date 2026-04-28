@@ -1,8 +1,10 @@
- const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
- const femaleNames = ["akosua", "Adwoa", "Abena", "Akua", "yaa", "Afua", "Ama"];
+
 //  main event
 document.getElementById('akanForm').addEventListener('submit',function(event){
     event.preventDefault();
+
+const maleNames = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+ const femaleNames = ["akosua", "Adwoa", "Abena", "Akua", "yaa", "Afua", "Ama"];
 
     // input values
     const birthday = document.getElementById('birthday').value;
@@ -15,10 +17,11 @@ document.getElementById('akanForm').addEventListener('submit',function(event){
         return;
     }
     // process the date
-    const dateParts = birthday.split("-");
-    const yearStr = dateParts[0];
-    const MM = parseInt(dateParts[1]);
-    const DD = parseInt(dateParts[2]);
+     let gender = genderInput.value;
+     let date = new Date(birthday);
+
+     let DD = 
+      let MM
 
     let d = (((CCC/4) -2*CC-1) +((5*YY/4)) +((26*(MM+1)/10)) +DD) %7;
     let index = Math.floor(d);
@@ -36,12 +39,4 @@ document.getElementById('akanForm').addEventListener('submit',function(event){
 
 
 
-daysOfWeek = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
+
