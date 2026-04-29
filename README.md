@@ -14,6 +14,8 @@ A simple tool for generating Akan names based on birth day and gender.
 git clone https://github.com/yourusername/akan-name-generator.git
 cd akan-name-generator
 ```
+view the live project here
+ https://chemutdor-web.github.io/Akan-name/
 
 ## Usage
 
