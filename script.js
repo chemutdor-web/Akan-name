@@ -14,7 +14,7 @@ let genderInput = document.querySelector('input[name="gender"]:checked');
 // now we can define gender
 
      let date = new Date(birthday);
-     let gender = genderInput.value;
+     
     
     //  extract date parts
     let MM = date.getMonth() + 1;
