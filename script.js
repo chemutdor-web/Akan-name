@@ -11,7 +11,7 @@ const gender = document.querySelector('input[name="gender"]:checked')
         return;
     }
     
-// console.log("the selected gender is:" + gender);
+console.log("the selected gender is:" + gender);
 
      let date = new Date(birthday);
      
@@ -56,8 +56,11 @@ const gender = document.querySelector('input[name="gender"]:checked')
         akanName= maleNames[index];
 
     } else {
-        akanName= femaleNames[index];
+      akanName = femaleNames[index];
     }
+      console.log(" Your Akan name is:" + akanName);
+    
+
 
     // Display result 
     document.getElementById("displayname").innerHTML ="Your Akan Name is <span>" + akanName + "</span>"
