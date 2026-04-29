@@ -3,7 +3,7 @@
 document.getElementById('Akan-form').addEventListener('submit',function(event){
     event.preventDefault();
 let birthday = document.getElementById("birthday").value;
-let genderInput = document.querySelector('input[name="gender"]:checked');
+let genderInput = document.querySelector('.radio-options').value;
     // validation
     if(!birthday || !gender){
         alert("please select both your birthday and gender!");
