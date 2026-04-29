@@ -39,7 +39,7 @@ console.log(name);
 - Create a feature branch
 - Open a pull requestContact Information
 
-##Technologies used
+## Technologies Used
 . HTML
 .CSS
 .JAVASCRIPT
