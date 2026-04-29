@@ -40,7 +40,7 @@ console.log(name);
 - Open a pull requestContact Information
 
 ## Technologies Used
-. HTML
+.HTML
 .CSS
 .JAVASCRIPT
 
