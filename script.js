@@ -2,8 +2,8 @@
 //  main event
 document.getElementById('Akan-form').addEventListener('submit',function(event){
     event.preventDefault();
-
-const birthday = document.getElementById("birthday").value;
+// makes the birthday appear as a string
+const birthday = document.getElementById("birthday").value; 
 const gender = document.querySelector('input[name="gender"]:checked')
     // validation
     if(!birthday || !gender){
@@ -11,7 +11,6 @@ const gender = document.querySelector('input[name="gender"]:checked')
         return;
     }
     console.log("the selected gender is:" + gender);
-// now we can define gender
 
      let date = new Date(birthday);
      
