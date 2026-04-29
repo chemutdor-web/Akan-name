@@ -30,15 +30,6 @@ view the live project here
 3 input: Invalid month (month <0 or month >12)
 ** output: Error message requestion valid month
 
-
-
-
-## Contributing
-
-- Fork the repository
-- Create a feature branch
-- Open a pull requestContact Information
-
 ## Technologies Used
 .HTML
 .CSS
