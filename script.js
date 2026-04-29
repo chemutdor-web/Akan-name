@@ -11,8 +11,7 @@ const gender = document.querySelector('input[name="gender"]:checked')
         return;
     }
     
-
-    console.log("the selected gender is:" + gender);
+// console.log("the selected gender is:" + gender);
 
      let date = new Date(birthday);
      
@@ -42,6 +41,7 @@ const gender = document.querySelector('input[name="gender"]:checked')
     if (index < 0){
         index += 7;
     }
+    console.log(" the selected gender is:" + gender);
 
 // name arrays(must start with sunday)
 
