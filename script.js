@@ -2,14 +2,13 @@
 //  main event
 document.getElementById('Akan-form').addEventListener('submit',function(event){
     event.preventDefault();
-let birthday = document.getElementById("birthday").value;
-let genderInput = document.querySelector('.radio-options').value;
+const birthday = document.getElementById("birthday").value;
+const gender = document.querySelector('input[name="gender"]:checked').value;
     // validation
     if(!birthday || !gender){
         alert("please select both your birthday and gender!");
         return;
     }
-    let gender = genderInput.value;
     console.log("the selected gender is:" + gender);
 // now we can define gender
 
@@ -22,8 +21,8 @@ let genderInput = document.querySelector('.radio-options').value;
     let Year = date.getFullYear();
 
     // the formula (centuary and year of centuary)
-    let CC = Math.floor(year / 100);
-    let YY = year % 100;
+    let CC = Math.floor(Year / 100);
+    let YY = Year % 100;
 
     // this the calculation
 
@@ -36,7 +35,8 @@ let genderInput = document.querySelector('.radio-options').value;
         DD) %
       7;
 
-    //   fix negative resultslet index = Math.floor(d);
+    //   fix negative results
+    let index = Math.floor(d);
     if (index < 0){
         index += 7;
     }
@@ -50,14 +50,14 @@ let genderInput = document.querySelector('.radio-options').value;
     
     // match name and display
     let akanName="";
-    if (gender=== "male"){
-        akanName= malesNames[index];
+    if (gender === "male"){
+        akanName= maleNames[index];
 
     } else {
         akanName= femaleNames[index];
     }
 
     // Display result 
-    document.getElementById("displayname").innerHTML ="Your Akan Name is <span>" +akanName;"</span>"
+    document.getElementById("displayname").innerHTML ="Your Akan Name is <span>" + akanName + "</span>"
 
 });
