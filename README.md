@@ -1,6 +1,10 @@
 # Akan Name Generator
 
+## Description
 A simple tool for generating Akan names based on birth day and gender.
+
+## Author
+Dorcas Chemutai.
 
 ## Features
 
@@ -8,30 +12,26 @@ A simple tool for generating Akan names based on birth day and gender.
 - Supports male/female name generation
 - Easy to use from the command line or as a library
 
-## Installation
-
-```bash
-git clone https://github.com/yourusername/akan-name-generator.git
-cd akan-name-generator
-```
+## Setup Instructions
+1.Clone this repository
+2.Open index.html in your browser
+3.Enter your date,month,year and select your gender
+click submit to see your Akan name
 view the live project here
  https://chemutdor-web.github.io/Akan-name/
 
-## Usage
+## BBD 
+1 input;Date, month,year and gender
+** output; your Akan name will appear based on
 
-```bash
-# Example usage
-node index.js
-```
+2 input:Invalid date (day <0 or day>31)
+** output: Error message requesting valid date
 
-Or import the generator in your code:
+3 input: Invalid month (month <0 or month >12)
+** output: Error message requestion valid month
 
-```js
-const { getAkanName } = require('./index');
 
-const name = getAkanName('1990-01-01', 'female');
-console.log(name);
-```
+
 
 ## Contributing
 
@@ -50,7 +50,7 @@ call me:0729086046
 
 
 
-## License
+## License and copyright
 MIT
 copyright (c) 2025
 
