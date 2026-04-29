@@ -10,6 +10,8 @@ const gender = document.querySelector('input[name="gender"]:checked')
         alert("please select both your birthday and gender!");
         return;
     }
+    
+
     console.log("the selected gender is:" + gender);
 
      let date = new Date(birthday);
