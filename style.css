@@ -10,18 +10,18 @@ body{
 }
 
 .form-card{
-    background-color:tan;
-    padding: 5px;
-    max-width: 200px;
+    background-color:;
+    padding: 15px;
+    max-width: 250px;
     border-radius: 12px;
     text-align: center;
     width:100%;
 }
 .container{
-    background-color: #fff;
+    background-color:semi-transpsrent white;
     border-top: 8px solid #ce1126;
-    padding:20px;
-    border-radius: 5px;
+    padding:2px;
+    border-radius: 25px;
     text-align: center;
     box-shadow:0 10px 30px rgba(0, 0, 0, 0.2);
     max-width: 400px;
@@ -36,9 +36,15 @@ header p{
     text-align: left;
     margin-bottom: 0%;
 }
+input [type="date"]{
+    border-radius: 2px;
+    padding:10px;
+    border: 2px solid #ddd;
+}
 .form-card{
     border-radius: 20px;
     color:#000;
+    padding: 12px;
 
 }
 
@@ -105,7 +111,8 @@ h2{
     margin-bottom: 0%;
 }
 #submit-button{
-    border-radius:5;
+    border-radius:15px;
+    padding:12px 24px ;
     width:30px;
     background-color: brown;
     font-size: medium;
